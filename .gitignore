@@ -1,0 +1,10 @@
+target/
+lib_managed/
+
+.target
+.project
+.classpath
+.cache
+.settings
+
+tmp/
