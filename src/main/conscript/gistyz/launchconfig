@@ -9,4 +9,4 @@
   local
   scala-tools-releases
   maven-central
-  my-repo: http://akihiro4chawon.github.com/gist4z/maven-repo/snapshots/
+  my-repo: http://akihiro4chawon.github.com/gistyz/maven-repo/snapshots/
