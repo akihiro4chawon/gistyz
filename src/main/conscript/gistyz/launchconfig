@@ -2,7 +2,7 @@
   version: 0.1.0-SNAPSHOT
   org: akihiro4chawon.github.com
   name: gistyz
-  class: akihiro4chawon.github.com.GistyZ
+  class: akihiro4chawon.github.com.gistyz.GistyZ
 [scala]
   version: 2.9.1
 [repositories]
