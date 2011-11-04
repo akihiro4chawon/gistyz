@@ -15,3 +15,12 @@ libraryDependencies ++= Seq(
   "net.liftweb" %% "lift-json-ext" % "2.4-M4",
   "net.liftweb" %% "lift-json" % "2.4-M4"
 )
+
+publishTo <<= (version) {
+  version: String =>
+    def repo(name: String) = Resolver.file("file", new File("../gistyz-gh-pages/maven-repo") / name)
+    val isSnapshot = version.trim.endsWith("SNAPSHOT")
+    val repoName   = if (isSnapshot) "snapshots" else "releases"
+    Some(repo(repoName))
+}
+
