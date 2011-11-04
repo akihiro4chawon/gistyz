@@ -1,8 +1,8 @@
 [app]
-  version: 0.1.0
+  version: 0.1.0-SNAPSHOT
   org: akihiro4chawon.github.com
   name: gistyz
-  class: akihiro4chawon.github.com.App
+  class: akihiro4chawon.github.com.GistyZ
 [scala]
   version: 2.9.1
 [repositories]

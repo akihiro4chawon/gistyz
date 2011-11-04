@@ -10,13 +10,13 @@ import Scalaz._
 import ErrorHandling._
 
 /** The launched conscript entry point */
-class App extends xsbti.AppMain {
+class GistyZ extends xsbti.AppMain {
   def run(config: xsbti.AppConfiguration) = {
-    Exit(App.run(config.arguments))
+    Exit(GistyZ.run(config.arguments))
   }
 }
 
-object App {
+object GistyZ {
   /** Shared by the launched version and the runnable version,
    * returns the process status code */
   def run(args: Array[String]): Int = {
